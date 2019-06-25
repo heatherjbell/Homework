@@ -8,6 +8,7 @@ with open('/Users/heather/Downloads/03-Python_Homework_PyBank_Resources_budget_d
     months = []
     profits_losses = []
     monthly_net = []
+    daily_net = []
 
     for row in csv_reader:
         months.append(str(row[0]))
